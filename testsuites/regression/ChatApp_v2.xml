@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="142" name="Selected ChatApp" >
+<node_order><![CDATA[0]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="143" name="TC88">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[109]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On your list of contacts, click on a contact's icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>Profile page for the selected contact is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the 'chat' button<p>]]></actions>
+	<expectedresults><![CDATA[<p>A chat dialog window appears</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Type a 'Hello there' message and press 'Send'<p>]]></actions>
+	<expectedresults><![CDATA[<p>The message is sent and 'Hello there' is shown in the chat history dialog</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="150" name="TC91">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[110]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on the Menu icon (top left corner) and select signout.</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The &#39;my chat&#39; app ask if you really want to sign out</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &#39;yes&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The &#39;my chat&#39; app is closed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154" name="TC93">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[111]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On your list of contacts, click on a contact's icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>Profile page for the selected contact is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the &#39;video call&#39; button</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A video call dialog window appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &#39;allow camera access&#39; for this app</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The &#39;video dialog box&#39; appear</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'video call' dialog box closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="160" name="TC94">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[112]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On your list of contacts, click on a contact's icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>Profile page for the selected contact is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the 'audio call' button<p>]]></actions>
+	<expectedresults><![CDATA[<p>A audio call dialog window appears</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>click on &#39;Allow Microphone Access for this app&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A audio call dialog window appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'audio call' dialog box closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="166" name="TC95">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[113]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On your list of contacts, click on a contact's icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>Profile page for the selected contact is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the 'camera' button<p>]]></actions>
+	<expectedresults><![CDATA[<p>A camera window appears</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on 'take photo' button<p>]]></actions>
+	<expectedresults><![CDATA[<p>photo is taken and display on screen</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>click on 'send picture' button<p>]]></actions>
+	<expectedresults><![CDATA[<p>photo is sent to selected contact</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="174" name="TC96">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[114]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;create group&quot; button</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A dialog box will appear asking for group name</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Enter 'group name' and click 'create'<p>]]></actions>
+	<expectedresults><![CDATA[<p>A new group will be created</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="180" name="TC97">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[115]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;status&quot; button</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A dialog box will appear asking for status</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Enter &#39;status&#39; and click &#39;posted&#39;</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A dialog box will appear asking for keycode</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Enter key code and press &#39;confirm&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A dialog box will appear showing the status</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="186" name="TC98">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[116]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On your list of contacts, click on a contact's icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>Profile page for the selected contact is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on the 'status' button<p>]]></actions>
+	<expectedresults><![CDATA[<p>A dialog window showing status appears</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="192" name="TC99">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[117]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[0]]></execution_type>
+	<importance><![CDATA[0]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on the 'my chat' icon<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app opens and main menu is displayed</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;settings&quot; button</p>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A dialog box will appear asking for keycode</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Enter key code and press confirm</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>setting dialog box will appear</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Press the 'X' icon on the top left corner<p>]]></actions>
+	<expectedresults><![CDATA[<p>The 'my chat' app closes</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>

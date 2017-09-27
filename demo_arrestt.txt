@@ -1,0 +1,8 @@
+java -cp arrest_demo.jar:jdom-2.0.6.jar:commons-lang3-3.4.jar:jsoup-1.9.2.jar demo.DemoSelection /Users/gomesf/Documents/code_projects/demo_arrestt/testsuites/selection/
+
+java -cp arrest_demo.jar:jdom-2.0.6.jar:commons-lang3-3.4.jar:jsoup-1.9.2.jar demo.DemoRegression /Users/gomesf/Documents/projetos_codigo/demo_arrestt/testsuites/regression/
+
+
+
+
+java -cp "./target/classes/" br.edu.ufcg.splab.synergia.CmdMain sut_objects.SUTCalculator 30

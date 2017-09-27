@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="253" name="ChatApp New Release" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="254" name="TC1">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[92]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the &#39;my chat&#39; icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app opens and main menu is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	On your list of contacts, click on a contact&#39;s icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	Profile page for the selected contact is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the contact&#39;s profile picure</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	A chat dialog window appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	Type a &#39;Hello there&#39; message and press &#39;Send&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The message is sent and &#39;Hello there&#39; is shown in the chat history dialog</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>
+	Press the &#39;X&#39; icon on the top left corner</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app closes</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="261" name="TC2">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[93]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the &#39;my chat&#39; icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app opens and main menu is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	On your list of contacts, click on a contact&#39;s icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	Profile page for the selected contact is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the &#39;chat&#39; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	A chat dialog window appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	Press the &#39;X&#39; icon on the top left corner</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app closes</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="267" name="TC3">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[94]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the &#39;my chat&#39; icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app opens and main menu is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	On your list of contacts, click on a contact&#39;s icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	Profile page for the selected contact is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	Press the &#39;X&#39; icon on the top left corner</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app closes</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="272" name="TC4">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[95]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the &#39;my chat&#39; icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app opens and main menu is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the Menu icon (top left corner) and select signout.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app closes.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="276" name="TC5">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[96]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the &#39;my chat&#39; icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app opens and main menu is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>
+	On your list of contacts, click on a contact&#39;s icon</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	Profile page for the selected contact is displayed</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>
+	Click on the contact&#39;s profile picure</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	A chat dialog window appears</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>
+	Click and hold the &#39;microphone icon&#39;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The message bar changes to a recording icon with a timer</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>
+	Speak the message &#39;Hello there&#39; in the microphone and release the button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	A message bubble with the audio appears on the chat history dialog</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>
+	Press the &#39;X&#39; icon on the top left corner</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>
+	The &#39;my chat&#39; app closes</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite>
